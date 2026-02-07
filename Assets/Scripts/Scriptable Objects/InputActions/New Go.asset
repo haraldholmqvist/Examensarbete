@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17eaa0b5e285c9247be9f771dee14b27, type: 3}
   m_Name: New Go
   m_EditorClassIdentifier: Assembly-CSharp::Go
-  keyWord: 
+  keyWord: go

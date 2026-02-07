@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc0fc8961753a74f89f37bdd1387838, type: 3}
   m_Name: OrbRoom
   m_EditorClassIdentifier: Assembly-CSharp::Room
-  description: 
-  roomName: 
-  exits: []
+  description: You are in a vast dark hall
+  roomName: Orb Room
+  exits:
+  - keyString: south
+    exitDescription: you see a door to the south
+    valueRoom: {fileID: 11400000, guid: 463512bd4e4eb5b4596e24cc83b4c3db, type: 2}
