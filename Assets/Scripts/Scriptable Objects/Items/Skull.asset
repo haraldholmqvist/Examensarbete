@@ -17,3 +17,5 @@ MonoBehaviour:
   interactions:
   - inputAction: {fileID: 11400000, guid: 92d9db267cbe7814fae171a0141c7bec, type: 2}
     TextResponse: The skull is black and charred, DISGUSTING.
+  - inputAction: {fileID: 11400000, guid: fc11aad55e70343488be329cd6f6029e, type: 2}
+    TextResponse: You take the skull.

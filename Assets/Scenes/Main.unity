@@ -524,6 +524,8 @@ MonoBehaviour:
   inputActions:
   - {fileID: 11400000, guid: fa8c66358143a2b49931c1062d05518b, type: 2}
   - {fileID: 11400000, guid: 92d9db267cbe7814fae171a0141c7bec, type: 2}
+  - {fileID: 11400000, guid: fc11aad55e70343488be329cd6f6029e, type: 2}
+  - {fileID: 11400000, guid: d86b25fc43939af43a56d895f52276f9, type: 2}
   roomNavigation: {fileID: 0}
   interactionDescriptionsInRoom: []
   interactableItems: {fileID: 0}

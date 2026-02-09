@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc0fc8961753a74f89f37bdd1387838, type: 3}
   m_Name: Starting Room
   m_EditorClassIdentifier: Assembly-CSharp::Room
-  description: Placeholder description
+  description: The air is thick and heavy, it smells like curry.
   roomName: Staring Room
   exits:
   - keyString: north
