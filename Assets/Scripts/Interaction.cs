@@ -5,4 +5,5 @@ public class Interaction
     public InputAction inputAction;
     [TextArea]
     public string TextResponse;
+    public ActionResponse actionResponse;
 }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Starting Room
   m_EditorClassIdentifier: Assembly-CSharp::Room
   description: The air is thick and heavy, it smells like curry.
-  roomName: Staring Room
+  roomName: starting room
   exits:
   - keyString: north
     exitDescription: you see a dark doorway to the north
