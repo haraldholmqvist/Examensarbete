@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skull
   m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
   noun: skull
-  description: Description in room
+  description: An elongated cromagnon skull lies in the corner of the room
   interactions:
-  - inputAction: {fileID: 11400000, guid: e32a3f3874e46a0488fbbde6ed366a85, type: 2}
-    textResponse: 'The skull is blackened and charred. Gross:'
+  - inputAction: {fileID: 11400000, guid: 92d9db267cbe7814fae171a0141c7bec, type: 2}
+    TextResponse: The skull is black and charred, DISGUSTING.
