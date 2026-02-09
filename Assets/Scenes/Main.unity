@@ -349,10 +349,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -524,6 +524,9 @@ MonoBehaviour:
   inputActions:
   - {fileID: 11400000, guid: fa8c66358143a2b49931c1062d05518b, type: 2}
   - {fileID: 11400000, guid: 92d9db267cbe7814fae171a0141c7bec, type: 2}
+  - {fileID: 11400000, guid: d5a43e8a8201a0043b553f8507487232, type: 2}
+  - {fileID: 11400000, guid: eac9a757a49476846a3a816daf3e8f12, type: 2}
+  - {fileID: 11400000, guid: 59944554ea16bcc4692944ce77a98e0d, type: 2}
   roomNavigation: {fileID: 0}
   interactionDescriptionsInRoom: []
   interactableItems: {fileID: 0}
@@ -567,6 +570,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9453e76067baf1e47b90611ab45d4360, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractableItems
+  usableItemList:
+  - {fileID: 11400000, guid: 16c7e6334d6fae64a8722312012a87a9, type: 2}
   nounsInRoom: []
 --- !u!1 &1323469933
 GameObject:
