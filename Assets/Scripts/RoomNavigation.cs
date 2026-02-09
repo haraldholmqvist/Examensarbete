@@ -32,7 +32,8 @@ public class RoomNavigation : MonoBehaviour
             controller.LogStringWithReturn("There is no path to the " + DirectionNoun);
         }
     }
-    public void ClearExits() { 
-    exitDictionary.Clear(); 
+    public void ClearExits()
+    {
+        exitDictionary.Clear();
     }
 }
