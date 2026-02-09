@@ -487,6 +487,7 @@ GameObject:
   - component: {fileID: 1251044383}
   - component: {fileID: 1251044382}
   - component: {fileID: 1251044385}
+  - component: {fileID: 1251044386}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -522,8 +523,10 @@ MonoBehaviour:
   displayText: {fileID: 431666065}
   inputActions:
   - {fileID: 11400000, guid: fa8c66358143a2b49931c1062d05518b, type: 2}
+  - {fileID: 11400000, guid: 92d9db267cbe7814fae171a0141c7bec, type: 2}
   roomNavigation: {fileID: 0}
   interactionDescriptionsInRoom: []
+  interactableItems: {fileID: 0}
 --- !u!4 &1251044384
 Transform:
   m_ObjectHideFlags: 0
@@ -552,6 +555,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextInput
   inputField: {fileID: 2139974307}
+--- !u!114 &1251044386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251044381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9453e76067baf1e47b90611ab45d4360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableItems
+  nounsInRoom: []
 --- !u!1 &1323469933
 GameObject:
   m_ObjectHideFlags: 0
