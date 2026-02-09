@@ -42,7 +42,8 @@ public class GameController : MonoBehaviour
 
         LogStringWithReturn(combinedText);
     }
-    void UnpackRoom() {
+    void UnpackRoom()
+    {
         roomNavigation.UnpackExistsInRoom();
         PrepareObjectsToTakeOrExamine(roomNavigation.CurrentRoom);
     }
@@ -55,10 +56,32 @@ public class GameController : MonoBehaviour
             {
                 interactionDescriptionsInRoom.Add(descriptionNotInInventory);
             }
+
+            InteractableObject interactableInRoom = currentRoom.interactbleObjectsInRoom[i];
+
+            for (int j = 0; j < interactableInRoom.interactions.Length; j++)
+            {
+                Interaction interaction = interactableInRoom.interactions[j];
+                if (interaction.inputAction.keyWord == "examine")
+                {
+                    interactableItems.examineDictionary.Add(interactableInRoom.noun, interaction.textResponse);
+                }
+            }
         }
     }
-    void ClearCollectionsForNewRoom() { 
-    interactionDescriptionsInRoom.Clear();
+
+    public string TestVerbDictionaryWithNoun(Dictionary<string, string> verbDictionary, string verb, string noun)
+    {
+        if (verbDictionary.ContainsKey(noun))
+        {
+            return verbDictionary[noun];
+        }
+        return "You can't " + verb + " " + noun;
+    }
+    void ClearCollectionsForNewRoom()
+    {
+        interactableItems.ClearCollection();
+        interactionDescriptionsInRoom.Clear();
         roomNavigation.ClearExits();
     }
     public void LogStringWithReturn(string stringToAdd)

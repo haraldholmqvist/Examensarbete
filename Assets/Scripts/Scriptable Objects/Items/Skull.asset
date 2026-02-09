@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acb4438fe0790df4f93c362045fa394c, type: 3}
   m_Name: Skull
   m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  noun: name
+  noun: skull
   description: Description in room
+  interactions:
+  - inputAction: {fileID: 11400000, guid: e32a3f3874e46a0488fbbde6ed366a85, type: 2}
+    textResponse: 'The skull is blackened and charred. Gross:'
